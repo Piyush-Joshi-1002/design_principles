@@ -1,13 +1,36 @@
 package org.example.SOLID.Open_Close_Principle;
+import java.util.List;
 
-public class ISPSubscriber {
-    private Long subscriberId;
-    private String address;
-    private Long phoneNumber;
-    private int baseRate;
+public class ISPSubscriber extends Subscriber {
+
     private long freeUsage;
 
-    public double calculatebill(){
-        return 0;
+    //only for demonstration
+    @Override
+    public double calculateBill() {
+        List<InternetSessionHistory.InternetSession> sessions = InternetSessionHistory.getCurrentSessions(subscriberId);
+        long totalData = sessions.stream().mapToLong(InternetSessionHistory.InternetSession::getDataUsed).sum();
+        long chargeableData = totalData - freeUsage;
+
+        if(chargeableData <= 0) {
+            return 0;
+        }
+        return chargeableData*baseRate/100;
     }
+
+    /**
+     * @return the freeUsage
+     */
+    public long getFreeUsage() {
+        return freeUsage;
+    }
+
+    /**
+     * @param freeUsage the freeUsage to set
+     */
+    public void setFreeUsage(long freeUsage) {
+        this.freeUsage = freeUsage;
+    }
+
+
 }

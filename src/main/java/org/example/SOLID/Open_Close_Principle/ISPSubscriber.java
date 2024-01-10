@@ -6,6 +6,7 @@ public class ISPSubscriber extends Subscriber {
     private long freeUsage;
 
     //only for demonstration
+    
     @Override
     public double calculateBill() {
         List<InternetSessionHistory.InternetSession> sessions = InternetSessionHistory.getCurrentSessions(subscriberId);

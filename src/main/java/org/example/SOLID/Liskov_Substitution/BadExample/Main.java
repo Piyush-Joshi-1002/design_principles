@@ -1,5 +1,6 @@
 package org.example.SOLID.Liskov_Substitution.BadExample;
 
+import org.example.SOLID.Liskov_Substitution.GoodExample.Shape;
 import org.jetbrains.annotations.NotNull;
 
 import static org.junit.Assert.assertEquals;
@@ -11,9 +12,9 @@ public class Main {
      *
     */
     public static void main(String [] args) {
+
         Rectangle rectangle = new Rectangle(10,20);
         System.out.println(rectangle.CalcuateArea());
-        System.out.println(System.getProperty("user.name"));
         Square square = new Square(30);
         System.out.println(square.CalcuateArea());
         useRectangle(rectangle);

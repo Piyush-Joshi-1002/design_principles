@@ -4,7 +4,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UserValidator {
-    public boolean validateUser(User user){
+    public  boolean validateUser(User user){
         return isValidUser(user);
     }
     private boolean isValidUser(User user) {

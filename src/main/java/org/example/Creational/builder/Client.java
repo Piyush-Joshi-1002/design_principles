@@ -22,6 +22,7 @@ public class Client {
         //Client has to provide director with concrete builder
         UserDTO dto = directBuild(builder, user);
         System.out.println(dto);
+
     }
 
     /**

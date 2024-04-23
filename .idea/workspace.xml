@@ -5,38 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0369f2f-70a2-4c27-a7ac-a199b7adc500" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/FormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/JSONFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/MessagePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample/TextFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/FormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/JSONFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/MessagePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample/TextFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/service/OrderPersistenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/service/PersistenceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Interface_Segragation_Principle/service/UserPersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/JSONMessageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/MessageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/TextMessageCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/message/JSONMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/message/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/FactoryMethod/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/BlogPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/NewsPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/PostFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory/ProductPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/builder/Builder_PatternIMG.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DecoratorDesignPattern/Toppings/ExtraCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecoratorDesignPattern/Toppings/ExtraCheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Liskov_Substitution/BadExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/Liskov_Substitution/BadExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SOLID/SingleResponsibility/GoodExample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/SingleResponsibility/GoodExample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SOLID/SingleResponsibility/GoodExample/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SOLID/SingleResponsibility/GoodExample/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Creational/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Creational/builder/Client.java" afterDir="false" />
     </list>
-    <list id="22efdfab-f4ab-45df-b715-0dc44c1c1031" name="Changes by admin" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DecoratorDesignPattern/BasePizza/BasePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DecoratorDesignPattern/BasePizza/BasePizza.java" afterDir="false" />
-    </list>
+    <list id="22efdfab-f4ab-45df-b715-0dc44c1c1031" name="Changes by admin" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +70,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/piyushjoshi/Downloads/Design patterns/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample",
+    "last_opened_file_path": "/Users/piyushjoshi/Downloads/Design patterns/src/main/java/org/example/Creational",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -90,13 +78,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.Creational.FactoryMethod" />
       <recent name="org.example.SOLID.Dependency_inversion_Principle.BadExample" />
       <recent name="org.example.DecoratorDesignPattern.Toppings" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Creational" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/GoodExample" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/SOLID/Dependency_inversion_Principle/BadExample" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/SOLID/Liskov_Substitution/GoodExample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Creational/SimpleFactory" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Creational/builder/" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Creational/builder" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.SOLID.Liskov_Substitution.BadExample" />
@@ -111,7 +107,20 @@
       <command value="mvn clean install -Dskiptest" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.org.example.SOLID.Dependency_inversion_Principle.GoodExample.Main">
+  <component name="RunManager" selected="Application.org.example.Creational.FactoryMethod.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Creational.builder.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -127,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Orders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.DecoratorDesignPattern.Orders" />
+    <configuration name="org.example.Creational.FactoryMethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Creational.FactoryMethod.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.DecoratorDesignPattern.*" />
+          <option name="PATTERN" value="org.example.Creational.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.Creational.builder.AnotherWay.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Creational.builder.AnotherWay.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Creational.builder.AnotherWay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,34 +168,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.SOLID.Dependency_inversion_Principle.GoodExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.SOLID.Dependency_inversion_Principle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.example.SOLID.Dependency_inversion_Principle.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.SOLID.Dependency_inversion_Principle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.SOLID.SingleResponsibility.GoodExample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SOLID.SingleResponsibility.GoodExample.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.SOLID.SingleResponsibility.GoodExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,21 +206,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.org.example.Creational.FactoryMethod.Client" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.org.example.Creational.builder.AnotherWay.Client" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.org.example.SOLID.Dependency_inversion_Principle.GoodExample.Main" />
-      <item itemvalue="Application.org.example.SOLID.Dependency_inversion_Principle.Main" />
-      <item itemvalue="Application.Orders" />
-      <item itemvalue="Application.org.example.SOLID.SingleResponsibility.GoodExample.Main" />
       <item itemvalue="JUnit.All in DesignPattern" />
       <item itemvalue="JUnit.org.example.SOLID.Dependency_inversion_Principle.BadExample in DesignPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Creational.FactoryMethod.Client" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.org.example.Creational.builder.AnotherWay.Client" />
         <item itemvalue="Application.org.example.SOLID.Dependency_inversion_Principle.GoodExample.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.example.SOLID.Dependency_inversion_Principle.Main" />
-        <item itemvalue="Application.org.example.SOLID.SingleResponsibility.GoodExample.Main" />
-        <item itemvalue="Application.Orders" />
       </list>
     </recent_temporary>
   </component>
